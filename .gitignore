@@ -1,0 +1,7 @@
+Debug/
+.vs/
+GaussQuadrature.sln
+GaussQuadrature/GaussQuadrature.vcxproj
+GaussQuadrature/GaussQuadrature.vcxproj.filters
+GaussQuadrature/GaussQuadrature.vcxproj.user
+GaussQuadrature/main.cpp
