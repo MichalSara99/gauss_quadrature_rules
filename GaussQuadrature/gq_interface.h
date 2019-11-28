@@ -20,6 +20,9 @@ namespace gq_interface {
 		Integrand(IntegratingFun<T,Ts...> const &integrand,Range<T> const &xrange)
 			:fun_{integrand},xrange_{xrange}{}
 
+		Integrand(IntegratingFun<T, Ts...> const &integrand)
+			:fun_{ integrand }{}
+
 		virtual ~Integrand(){}
 
 		Integrand(Integrand<T,Ts...> const &copy)

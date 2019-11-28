@@ -9,10 +9,21 @@
 
 namespace gq_utilities {
 
+	// PI constant (50 decimal places)
+	constexpr double PI{ 3.14159265358979323846264338327950288419716939937510 };
+
 	// Integrand
 	template<typename T,typename ...Ts>
 	using IntegratingFun = std::function<T(Ts...)>;
 
+	// n-point
+	enum class NPoint {
+		_2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12,
+		_13, _14, _15, _16, _17, _18, _19, _20, _21
+	};
+
+	// kind
+	enum class Kind { _1st, _2nd };
 
 
 	// Integration domain
